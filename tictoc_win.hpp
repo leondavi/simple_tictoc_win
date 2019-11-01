@@ -49,7 +49,7 @@ private:
 
 public:
 	typedef enum Tunit{milli,micro,nano};//in seconds 
-	std::vector<std::string> units_str_vec = { "[ms],[mrs],[ns]" };
+	std::vector<std::string> units_str_vec = { "[ms]","[mrs]","[ns]" };
 	tictoc(Tunit units = milli) : units(units),tic_called_once(false)
 	{
 		
